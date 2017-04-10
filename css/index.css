@@ -1,3 +1,26 @@
+/*General Styling */
+body {
+    line-height: 1.7em;
+    color: #7f8c8d;
+    font-size: 13px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label {
+    color: #34495e;
+}
+
+.pure-img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+
 /* Menu Styling */
 .home-menu {
     padding: 0.5em;
@@ -27,3 +50,4 @@
     border: none;
     color: #AECFE5;
 }
+
