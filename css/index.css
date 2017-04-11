@@ -28,7 +28,7 @@ body {
 .navbar-custom .navbar-nav > .active > a:focus,
 .navbar-custom .navbar-nav > .open >a {
     text-decoration: none;
-    background-color: #33aa33;
+    background-color: #42b3f4;
 }
 
 .navbar-custom .navbar-brand {
@@ -38,5 +38,5 @@ body {
     background-color:#eeeeee;
 }
 .navbar-custom .icon-bar {
-    background-color:#33aa33;
+    background-color: #42b3f4;
 } 
