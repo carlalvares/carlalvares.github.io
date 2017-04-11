@@ -8,13 +8,13 @@ body {
 
 /* Custom Navbar */
 .navbar-custom {
-    background-color:#42b3f4;
-    color:#ffffff;
+    background-color: #42b3f4;
+    color: #ffffff;
     border-radius:0;
 }
 
 .navbar-custom .navbar-nav > li > a {
-    color:#fff;
+    color: #fff;
 }
 
 .navbar-custom .navbar-nav > .active > a {
@@ -28,15 +28,15 @@ body {
 .navbar-custom .navbar-nav > .active > a:focus,
 .navbar-custom .navbar-nav > .open >a {
     text-decoration: none;
-    background-color:#42b3f4;
+    background-color: #42b3f4;
 }
 
 .navbar-custom .navbar-brand {
-    color:#eeeeee;
+    color: #eeeeee;
 }
 .navbar-custom .navbar-toggle {
-    background-color:#eeeeee;
+    background-color: #eeeeee;
 }
 .navbar-custom .icon-bar {
-    background-color:#42b3f4;
+    background-color: #42b3f4;
 } 
