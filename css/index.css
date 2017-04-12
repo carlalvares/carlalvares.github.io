@@ -62,8 +62,10 @@ body {
 body > .container {
   padding: 60px 15px 0;
 }
-.container .text-muted {
+
+.container .footer-text {
   margin: 20px 0;
+  color: #eeeeee
 }
 
 .footer > .container {
