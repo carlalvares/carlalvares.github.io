@@ -1,5 +1,9 @@
+/* General Styling */
+
 body {
+  /* Padding for Navbar and Footer */
   padding-top: 50px;
+  margin-bottom: 60px;
 }
 .content {
   padding: 40px 15px;
@@ -41,7 +45,7 @@ body {
     background-color: #42b3f4;
 } 
 
-/* Image */
+/* Image (Rounded Edges) */
 .headshot {
 border-radius: 25px
 }
@@ -50,10 +54,6 @@ border-radius: 25px
 html {
   position: relative;
   min-height: 100%;
-}
-
-body {
-  margin-bottom: 60px;
 }
 
 .footer {
