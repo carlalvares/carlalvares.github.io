@@ -41,6 +41,11 @@ body {
     background-color: #42b3f4;
 } 
 
+/* Image */
+.headshot {
+border-radius: 25px
+}
+
 /* Footer */
 html {
   position: relative;
