@@ -38,7 +38,11 @@
 }
 .navbar-custom .icon-bar {
     background-color: #42b3f4;
-} 
+}
+
+.btn-work-custom {
+  text-align: center;
+}
 
 /* Image (Rounded Edges) */
 .headshot {
