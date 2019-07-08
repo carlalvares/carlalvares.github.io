@@ -1,46 +1,57 @@
-/* General Styling */
-
-.content {
-  padding: 10px 15px;
-  text-align: center;
+/* General styling */
+body {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    color: white;
+    text-align: center;
+    min-height: 100vh;
 }
 
-/* Custom Navbar */
-.navbar-custom {
-    background-color: #42b3f4;
-    color: #ffffff;
-    border-radius:0;
+/* Content area */
+#content {
+  padding: 1vh 2vw;
+  font-family: 'Nunito Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
-.navbar-custom .navbar-nav > li > a {
-    color: #fff;
+/* Links */
+a {
+    color: white;
 }
 
-.navbar-custom .navbar-nav > .active > a {
-    color: #ffffff;
-    background-color:transparent;
+/* Headshot image (rounded edges) */
+#headshot {
+    border-radius: 5vh;
 }
 
-.navbar-custom .navbar-nav > li > a:hover,
-.navbar-custom .navbar-nav > li > a:focus,
-.navbar-custom .navbar-nav > .active > a:hover,
-.navbar-custom .navbar-nav > .active > a:focus,
-.navbar-custom .navbar-nav > .open >a {
+/* Container storing link buttons */
+#links {
+    display: flex;
+    justify-content: center;
+}
+
+/* Link buttons */
+.link-button {
     text-decoration: none;
-    background-color: #42b3f4;
+    font-size: 2rem;
+    margin-left: 1vw;
+    margin-right: 1vw;
 }
 
-.navbar-custom .navbar-brand {
-    color: #eeeeee;
-}
-.navbar-custom .navbar-toggle {
-    background-color: #eeeeee;
-}
-.navbar-custom .icon-bar {
-    background-color: #42b3f4;
+/* Footer */
+footer {
+    font-size: 0.5rem;
 }
 
-/* Image (Rounded Edges) */
-.headshot {
-border-radius: 25px
+/* Styling for small screens */
+@media (max-width: 500px) {
+    #headshot {
+        width: 90vw;
+    }
+
+    .link-button {
+        margin-left: 2.5vw;
+        margin-right: 2.5vw;
+    }
 }
