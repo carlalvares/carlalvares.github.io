@@ -1,59 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
+    <!-- Meta Tags -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Carl's Personal Website'">
-    <meta name="author" content="Carl Alvares">
-    <link rel="icon" href="images/favicon.ico">
 
     <title>Carl Alvares</title>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+
+    <!-- Google Fonts (Nunito Sans) -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
 
     <!-- FontAwesome Icons -->
     <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="css/index.css" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/index.css"/>
   </head>
 
   <body>
+    <div id="content">
+      <header class="content-item">
+        <h1>Hey! 👋🏽</h1>
+      </header>
 
-    <nav class="navbar navbar-custom">
-      <div class="container">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">Carl Alvares</a>
-          </div>
+      <div id="headshot-container" class="content-item">
+        <img id="headshot" src="images/me.jpg" alt="Me!">
       </div>
-    </nav>
 
-    <div class="container">
-      <div class="content">
-        <img class="headshot" src="images/me.jpg" alt="Me!">
-        <h1>Hello! 😁</h1>
-        <p class="lead">My name is Carl. I'm a Computer Science student at the University of Toronto. 📚🇨🇦</p>
-        <a role="button" class="btn btn-lg btn-danger" href="files/Carl_Alvares_Resume.pdf" title="Resume">
+      <div id="description" class="content-item">
+        <p>My name is Carl. I'm a Computer Science student at the <a href="https://www.utsc.utoronto.ca/home/">University of Toronto Scarborough</a> 💻</p>
+        <p>I'm currently doing a co-op term as a Software Developer at <a href="https://www.casewarecloud.com/">Caseware</a> 💼</p>
+        <p>I attended <a href="https://hacknyu.org/">HackNYU 2019</a>, where my teammates and I won third place in the Financial Empowerment track for our project, <a href="https://devpost.com/software/subtrakt">SubTrakt</a> 🥉</p>
+        <p>📍: Toronto, ON, Canada 🇨🇦</p>
+      </div>
+
+      <div id="links" class="content-item">
+        <a role="button" class="link-button" href="files/Carl_Alvares_Resume.pdf" title="Resume">
           <i class="fas fa-graduation-cap"></i>
         </a>
-        <a role="button" class="btn btn-lg btn-warning" href="http://www.github.com/carlalvares" title="GitHub">
+
+        <a role="button" class="link-button" href="http://www.github.com/carlalvares" title="GitHub">
           <i class="fab fa-github-alt"></i>
         </a>
-        <a role="button" class="btn btn-lg btn-primary icon-linkedin-square" href="https://www.linkedin.com/in/carl-alvares-72b2865b/" title="LinkedIn">
+
+        <a role="button" class="link-button" href="https://www.linkedin.com/in/carl-alvares-72b2865b/" title="LinkedIn">
           <i class="fab fa-linkedin-in"></i>
         </a>
-        <a role="button" class="btn btn-lg btn-success" href="mailto:alvares.carl@gmail.com" title="Email">
+
+        <a role="button" class="link-button" href="mailto:alvares.carl@gmail.com" title="Email">
           <i class="fas fa-at"></i>
         </a>
+
+        <a role="button" class="link-button" href="https://www.instagram.com/carl.alvares/" title="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
       </div>
-    </div><!-- /.container -->
 
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <footer class="content-item">
+        <p>Background photo by <a href="https://unsplash.com/@aribuga">Yasin Arıbuğa</a> on Unsplash</p>
+      </footer>
+    </div>
   </body>
 </html>
