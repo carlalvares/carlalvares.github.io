@@ -1,7 +1,7 @@
 /* General styling */
 body {
-    background-color: #5a189a;
-    color: #ecccff;
+    background-color: #219ebc;
+    color: #ffffff;
     text-align: center;
     min-height: 100vh;
 }
@@ -16,14 +16,14 @@ body {
 
 /* Links */
 a {
-    color: #ecccff;
+    color: #ffffff;
 }
 
 /* Headshot image (rounded edges) */
 #headshot {
     height: 35vh;
     width: 35vh;
-    background-color: #9d4edd;
+    background-color: #8ecae6;
     border-radius: 3vh;
 }
 
